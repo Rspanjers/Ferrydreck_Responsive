@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: 
+Disallow: /mde3/web/opdrachtseo/index.html

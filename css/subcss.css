@@ -1,0 +1,286 @@
+
+/* Website general */
+.wrapper
+{
+   width:1100px;
+    margin: 0 auto;
+
+}
+body
+{
+    margin-top:70px;
+}
+
+a {
+    color: #fff;
+    font-size:12px;
+    text-decoration: none;
+    padding-right:10px;
+            
+ }
+
+a:hover
+ {
+     color: #000;
+ }
+       
+a:onclick
+ {
+    color:#000;
+  }
+nav
+{
+    margin-left: 175px;
+    font-family:roboto;
+}
+aside
+{
+    color:#d7d7d7;
+}
+
+
+
+
+/* header etc */
+
+.pinkboxsub
+{
+ 
+         height: 50px;
+    width: 950px;
+    background-color: #d46d8f;
+    position: relative;
+    top: 20px;
+    left: 65px;
+}
+.triangle
+{
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 40px 37.5px 0 37.5px;
+border-color: #d46d8f transparent transparent transparent;
+    position: relative;
+    left: 400px;
+}
+.pinkboxtext {
+     color: #fff;
+    font-family: roboto;
+    position: relative;
+    top: 15px;
+    text-align: center;
+}
+
+
+.gradient {
+    background-color: #000;
+    padding: 25px 25px;
+    width: 1039px;
+    background: linear-gradient(91deg, rgba(212,103,142,1) 0%, rgba(108,149,189,1) 100%);
+    padding-top: 65px;
+}
+
+
+
+/* Blok bovenaan de website */
+.topblok {
+    height: 85px;
+    width: 250px;
+    background-color: #fff;
+    position: absolute;
+    top: 25px;
+    left: 540px;
+    box-shadow: 0 3px 2px -2px black;
+}
+p.mheading
+{
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 45px;
+    font-family: roboto;
+}
+
+
+
+/* Blokken in het midden */
+
+.middle
+{
+    width: 1089px;
+    height: 100px;
+    background-color: #eee;
+    margin-top:-22px;
+}
+
+/* firefox only */
+@-moz-document url-prefix() {
+    
+    .gradientblokhome
+{
+    height: 150px;
+    width: 465px;
+    background: linear-gradient(91deg, rgba(212,103,142,1) 0%, rgba(108,149,189,1) 100%);
+}
+    
+    .topblok {
+    height: 85px;
+    width: 250px;
+    background-color: #FFF;
+    position: absolute;
+    top: 25px;
+    left: 345px;
+    box-shadow: 0px 3px 2px -2px #000;
+}
+}
+
+/*  Comment syste */
+
+
+.rightpart
+{
+    min-height:659px;
+    width: 689px;
+    display:inline-block;
+    float:left;
+}
+.leftpart {
+    min-height: 460px;
+    width: 370px;
+    display: inline-block;
+    padding: 20px;
+}
+.subtitle
+{
+    font-size:25px;
+    font-family:roboto;
+    color: #8c8f94;
+}
+.subtext
+{
+    font-family:roboto;
+    color: #8c8f94;
+}
+.admin
+{
+        font-size: 22px;
+    font-family: roboto;
+    color: #df5e73;
+    position: relative;
+    left: 15px;
+    text-transform: uppercase;
+}
+.amonth
+{
+    font-size: 16px;
+    font-family: roboto;
+    color: #8c8f94;
+    position: relative;
+    left: 66px;
+    top: -22px;
+}
+.amonthfirst
+{
+    font-size: 16px;
+    font-family: roboto;
+    color: #8c8f94;
+    position: relative;
+    left: 65px;
+    top: -22px;
+}
+.atext
+{
+        margin-top: -20px;
+    color: #8c8f94;
+    font-family: roboto;
+}
+
+
+
+
+
+
+/* Albums! */ 
+.albumno {
+    background-color: #eee;
+    width: 679px;
+    height: 100px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid;
+}
+.description
+{
+    display: inline-block;
+    width: 400px;
+    position: relative;
+    top: -35px;
+    left: 10px;
+}
+.teaserimage
+{
+    display:inline-block;
+    border: 1px solid;
+}
+.datealbum
+{
+      display: inline-block;
+    width: 125px;
+    height: 100px;
+    background-color: gray;
+    position: relative;
+    top: -50px;
+    left: 35px;
+}
+.datenumber
+{
+        position: relative;
+    top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: roboto;
+    color: #fff;
+}
+
+
+/* ANIMATIONS TRANSITION */
+.animatedbutton:hover
+{
+  animation-name: animatedbutton;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animatedbutton 
+{
+0% {margin-left: 0px;}
+20%{margin-left: 15px;}
+100%{margin-left: 30px;}
+    
+}
+.bottomofthepage
+{
+        position: absolute;
+    bottom: -400px;
+    right: 425px;
+}
+@-moz-document url-prefix() {
+    
+.amonthfirst
+{
+    font-size: 16px;
+    font-family: roboto;
+    color: #8c8f94;
+    position: relative;
+    left: 68px;
+    top: -22px;
+}
+
+}
+.formtitle
+{
+    font-size: 19px;
+    font-family: roboto;
+    color: #df5e73;
+    text-transform: uppercase;
+}

@@ -1,0 +1,359 @@
+
+/* Website general */
+.wrapper
+{
+   width:1100px;
+    margin: 0 auto;
+
+}
+body
+{
+    margin-top:70px;
+}
+
+a {
+    color: #fff;
+    font-size:12px;
+    text-decoration: none;
+    padding-right:10px;
+            
+ }
+
+a:hover
+ {
+     color: #000;
+ }
+       
+a:onclick
+ {
+    color:#000;
+  }
+nav
+{
+    margin-left: 175px;
+    font-family:roboto;
+}
+aside
+{
+    color:#d7d7d7;
+}
+
+
+
+
+
+
+
+/* header etc */
+.comfort
+{
+    height: 56px;
+    width: 894px;
+    background-color: rgba(139,47,48,0.3);
+    font-size: 13px;color: #fff;
+    position: relative;
+    top: -100px;
+    padding-top: 40px;
+    padding-left: 195px; 
+    margin-bottom: -100px;
+    font-family: roboto;
+}
+.gradient
+{
+    background-color: #000;
+    padding: 25px 25px;
+    width: 1039px;
+    background: linear-gradient(91deg, rgba(212,103,142,1) 0%, rgba(108,149,189,1) 100%);
+}
+.callfreeblok
+{
+    height: 89px;
+    background-color: #f6df45;
+    width: 198px;
+    padding-left: 70px;
+    position: absolute;
+    top: 341px;
+    left: 1000px;
+    padding-bottom: 15px;
+    margin-top: -15px;
+    font-family: roboto;
+}
+.callfree
+{
+    color: #fff;
+    font-size: 25px;
+    padding-top: 25px;
+    margin-bottom: -15px; 
+    margin-top:0px;
+    font-family: roboto;
+    margin-left: -25px;
+}
+.textcallfree
+{
+    font-size: 18px;
+    margin-left: -8px;
+    font-family: roboto;
+}
+.blokcleaning
+{
+    position: absolute;
+    top: 430px;
+    background-color: #fff;
+    left: 1000px;
+    width: 218px;
+    height: 168px;
+    padding-left: 50px;
+    font-family: roboto;
+}
+h3.professional
+{
+    color: #ccdbe7;
+    font-weight: normal;
+    font-size: 23px;
+    font-family: roboto;
+}
+p.textprofessional
+{
+    font-size: 12px;
+    margin-top: -5px;
+    margin-left: -5px;
+    color: #d9c7d4;
+    font-family: roboto;
+}
+
+
+
+
+
+
+
+/* Blok bovenaan de website */
+.topblok
+{
+        height: 85px;
+    width: 250px;
+    background-color: #fff;
+    position: absolute;
+    top: 25px;
+    left: 500px;
+    box-shadow: 0 3px 2px -2px black;
+}
+p.mheading
+{
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 45px;
+    font-family: roboto;
+}
+
+
+
+
+
+
+
+
+
+/* Blokken in het midden */
+
+.middle
+{
+    width: 1089px;
+    height: 350px;
+    background-color: #eee;
+    margin-top:-22px;
+}
+p.maideasy
+{
+       font-size: 22px;
+    padding-top: 50px;
+    padding-left: 400px;
+    font-family: roboto;
+}
+
+
+.mblok1
+{
+    height:170px;
+    width:170px;
+    background-color:#d34a6d;
+    float: left;
+    display:inline-block;
+    border: 10px solid #eee;
+}
+.mblok2
+{
+    height:170px;
+    width:170px;
+    background-color:#829ebd;  
+    float:left;
+    display:inline-block;
+    border: 10px solid #eee;
+}
+.mblok3
+{
+    height:170px;
+    width:170px;
+    background-color:#9f7ba8;
+    float:left;
+    display:inline-block;
+    border: 10px solid #eee;
+}
+.centertheblocks
+{
+    margin-left: 240px;
+}
+
+p.mblokheader
+{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 14px;
+    font-family: roboto;
+    color: #fff;
+}
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 30px 15px 0;
+    border-color: transparent #eeeeee transparent transparent;
+    position: relative;
+    top: -60px;
+    left: 141px;
+}
+
+
+
+
+
+
+
+
+/*news and events part of the website*/
+
+p.newsandevents {
+    font-size: 22px;
+    padding-left: 200px;
+    font-family: roboto;
+}
+.gradientblokhome
+{
+    height: 130px;
+    width: 555px;
+    background: linear-gradient(91deg, rgba(212,103,142,1) 0%, rgba(108,149,189,1) 100%);
+   
+}
+.gradientbloktext
+{
+     font-size: 24px;
+    font-family: roboto;
+    color: #fff;
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 53%;
+}
+a.thenews {
+    color: #ebc3d1;
+    font-family: roboto;
+    font-size: 15px;
+    margin-left: -135px;
+    margin-top: 15px;
+}
+a.thenews:hover
+{
+    color:#ebc3d1;
+    font-family: roboto;
+    font-size: 15px;
+}
+a.thenews:onclick
+{
+    color:#ebc3d1;
+    font-family: roboto;
+    font-size: 15px;
+}
+.homepagearticle
+{
+    border-left: 1px solid #ebc3d1;
+    padding-left: 10px;
+    width: 300px;
+}
+
+
+
+
+
+/*positioning the entire news part on the homepage*/
+.thenews
+{
+    position:absolute;
+    left:26%;
+    height: 100px;
+}
+.part2news
+{
+    position:relative;
+    top:-70px;
+    left:100px;
+}
+.part3news
+{
+    position:relative;
+    top:-260px;
+    left:440px;
+}
+
+
+
+
+
+
+
+/* firefox only */
+@-moz-document url-prefix() {
+    
+    .gradientblokhome
+{
+    height: 150px;
+    width: 465px;
+    background: linear-gradient(91deg, rgba(212,103,142,1) 0%, rgba(108,149,189,1) 100%);
+}
+    
+    .topblok {
+    height: 85px;
+    width: 250px;
+    background-color: #FFF;
+    position: absolute;
+    top: 25px;
+    left: 345px;
+    box-shadow: 0px 3px 2px -2px #000;
+}
+}
+
+/* ANIMATIONS TRANSITION */
+.animatedbutton:hover
+{
+  animation-name: animatedbutton;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animatedbutton 
+{
+0% {margin-left: 0px;}
+20%{margin-left: 15px;}
+100%{margin-left: 30px;}
+    
+}
+
+.bottomofthepage
+{    position: absolute;
+    top: 190px;
+    right: -450px;
+}
+body
+{
+    margin-right:0px;
+    margin-left:0px;
+    overflow-x:hidden;
+}

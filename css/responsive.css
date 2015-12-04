@@ -1,0 +1,152 @@
+
+/*Ipad schermen */
+@media screen and (max-width: 786px) {
+	.wrapper
+	{
+		width:768px;
+	}
+    
+    /*Blok bovenaan de website */
+    .topblok {
+       	margin-left:-400px;
+    }
+
+
+	/* Neem contact op blok op de homepagina */
+    .callfreeblok
+    {
+    	display:none;
+    }
+    .blokcleaning
+    {
+    	display:none;
+    }
+
+
+    /* Navigatie website */
+    nav
+    {
+    	margin-left:0px;
+    }
+
+
+    /*Nieuws stuk op de homepagina */
+    .part3news
+    {
+    	position:static;
+    }
+    .gradientblokhome
+    {
+    	width:400px;
+    	margin-bottom: 30px;
+    	padding-bottom: 10px;
+    }
+    p.newsandevents
+    {
+    	padding-left:50px;
+    }
+    .thenews
+    {
+    	left:11%;
+    }
+
+
+    /* Drie blokken midden website home */
+     .centertheblocks
+    {
+    	
+        margin-left:11%;
+    }
+    p.maideasy
+    {
+    	padding-left:50px;
+    }
+    .middle
+    {
+    	width:768px;
+    }
+
+    /* banner */
+    .gradient
+    {
+    	width:718px;
+    }
+    .comfort
+    {
+    	width:572px;
+    }
+    .marcobanner
+    {
+    	width:768px;
+    }
+
+}	
+/*Mobiele schermen/ Laag Ipad */
+@media screen and (max-width: 550px) {
+	.up
+	{
+		margin-left:-140px;
+	}
+	.middle
+	{
+		height:750px;
+	}
+	.mblok1
+	{
+		float:none;
+		display:inherit;
+	}
+	.mblok2
+	{
+		float:none;
+		display:inherit;
+	}
+	.mblok3
+	{
+		float:none;
+		display:inherit;
+	}
+	.thenews
+	{
+		left:5%;
+	}
+	.marcobanner
+    {
+    	width:550px;
+    }
+    .topblok
+    {
+    	margin-left:-500px;
+    }
+     .centertheblocks
+    {
+            margin-left: 18%;
+    }
+}
+
+/* Mobiele schermen kleinste etc */
+@media screen and (max-width: 360px) {
+	.up
+	{
+		font-size:20px;
+	}
+	p.maideasy
+	{
+		padding-left: 21px;
+    	font-size: 16px;
+	}
+	.newsandevents
+	{
+		padding-left: 55px;
+    	font-size: 20px;
+	}
+    .homepagearticle
+    {
+        font-size:15px;
+        width:180px;
+    }
+    .centertheblocks
+    {
+            margin-left: 60px;
+    }
+}
